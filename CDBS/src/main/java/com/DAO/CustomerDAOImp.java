@@ -20,7 +20,7 @@ public  class  CustomerDAOImp  implements CustomerDAORepo{
 		Session s=sf.openSession();
 		Transaction tx=	s.beginTransaction();
 		s.save(cust);
-		tx.commit();
+		//tx.commit();
 	}
 	//remove customer using its id.
 	@Override
