@@ -2,10 +2,10 @@ public class Emp{
   private int id;
   private String name;
   private String dept;
-  public void setId(int id){
+  public void setIds(int id){
   this.id=id;
   }
-  public int getId()
+  public int getIds()
   {
     return id;
   }
