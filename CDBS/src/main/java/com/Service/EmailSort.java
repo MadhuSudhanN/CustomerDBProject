@@ -14,5 +14,8 @@ public class EmailSort implements  Comparator<CustomerEntity>
 		
 		return n1.compareTo(n2);
 	}
+	void ms(){
+	System.out.print("Test !!!!");
+	}
 	
 }
