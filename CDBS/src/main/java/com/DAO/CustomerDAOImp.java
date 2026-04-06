@@ -13,7 +13,7 @@ import com.entity.CustomerEntity;
 import com.validate.StringFormat;
 
 public  class  CustomerDAOImp  implements CustomerDAORepo{
-	//add cust
+	//save new cust 
 	public  void insert(CustomerEntity cust)
 	{
 		SessionFactory sf=new Configuration().configure().addAnnotatedClass(CustomerEntity.class).buildSessionFactory();
