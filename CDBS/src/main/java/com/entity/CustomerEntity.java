@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="Customer")
+@Table(name="Customer")// represent table
 public class CustomerEntity  {
 	@Id @Column(name="cust_id")
 	private int cid;

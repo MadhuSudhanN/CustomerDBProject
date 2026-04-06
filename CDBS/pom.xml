@@ -4,7 +4,13 @@
   <artifactId>CDBS</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <dependencies><!--
+  <dependencies>
+	  <dependency>
+    <groupId>io.jenkins.blueocean</groupId>
+    <artifactId>blueocean-dashboard</artifactId>
+    <version>1.27.26</version>
+</dependency>
+	  <!--
 		https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>

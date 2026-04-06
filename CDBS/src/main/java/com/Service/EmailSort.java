@@ -11,8 +11,11 @@ public class EmailSort implements  Comparator<CustomerEntity>
 	public int compare(CustomerEntity o1, CustomerEntity o2) {
 		String n1=o1.getEmail();
 		String n2=o2.getEmail();
-		
+		System.out.print("sort based on email");
 		return n1.compareTo(n2);
+	}
+	void ms(){
+	System.out.print("Test !!!!");
 	}
 	
 }
